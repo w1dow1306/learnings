@@ -1,3 +1,5 @@
 # learnings
 Whatever i learn ill dump here
-blah blah bla
+
+
+![alt text](assets/a.drawio.png)
