@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<style>
+
+</style>
+
+<body>
+    <div class="container">
+        <div class="profile">
+            <h1>
+                User : <span id="name"></span> <br> Room : <span id="rm"></span>
+            </h1>
+            <button onclick=joinroom() class="jnrm">Join a room!</button>
+        </div>
+        <div class="box">
+            <ul class="messages">
+                <div class="info"></div>
+                <!-- <li class="left">
+                    <div class="pfp"></div>
+                    $<span id="usrnm">User</span>:<p class="mesg">Hello</p>
+                </li>
+                <li class="right">
+                    <div class="pfp"></div>
+                    $<span id="usrnm">User</span>:<p class="mesg">Hello to you too!</p>
+                </li> -->
+            </ul>
+        </div>
+        <form action="" class="chatbox">
+            <input type="text" name="" id="message" placeholder="Chat">
+            <input type="submit" class="btn" onclick=sendmessage() value="Send ➤ ">
+        </form>
+    </div>
+</body>
+<a href="https://icons8.com/icon/39874/cartoon" style="display: none;">Cartoon</a> icon by <a
+    href="https://icons8.com">Icons8</a>
+<script src="./socket.io/socket.io.js"></script>
+<script defer src="client.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "taskprout-backend",
+  "version": "1.0.0",
+  "description": "Backend for taskprout",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w1dow1306/taskprout.git"
+  },
+  "keywords": [
+    "todo",
+    "task",
+    "management",
+    "frontend",
+    "backend"
+  ],
+  "author": "w1dow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w1dow1306/taskprout/issues"
+  },
+  "homepage": "https://github.com/w1dow1306/taskprout#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  }
+}
